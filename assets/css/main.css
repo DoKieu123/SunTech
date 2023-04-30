@@ -6,6 +6,10 @@
   text-decoration: none;
 }
 
+img {
+  width: 100%;
+}
+
 .text--print {
   text-transform: uppercase;
 }
@@ -21,8 +25,8 @@ ul {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  height: 100px;
-  padding: 0px 50px;
+  height: 70px;
+  padding: 0px 30px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -33,6 +37,7 @@ ul {
   text-transform: uppercase;
   margin-bottom: 0px;
   font-weight: 700;
+  font-size: 20px;
 }
 
 .menu_list {
@@ -43,9 +48,9 @@ ul {
   margin-bottom: 0px;
 }
 .menu_list a {
-  padding: 0px 20px;
+  padding: 0px 15px;
   text-transform: uppercase;
-  font-size: 18px;
+  font-size: 13px;
   font-weight: 600;
   color: #3f4853 !important;
 }
@@ -60,18 +65,20 @@ ul {
   margin-bottom: 0px;
 }
 .menu_icon a {
-  padding: 0px 30px;
+  padding: 0px 10px;
   position: relative;
+  width: 14px !important;
 }
 .menu_icon a p {
   position: absolute;
   background-color: #3cb878;
   color: white;
-  height: 20px;
-  width: 20px;
+  height: 15px;
+  width: 15px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  font-size: 10px;
   margin-bottom: 0px;
   text-align: center;
   border-radius: 50%;
@@ -81,11 +88,12 @@ ul {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  top: -7px;
-  right: 15px;
+  top: -2px;
+  right: 0px;
   opacity: 0;
 }
-.menu_icon:hover p {
+
+.cart-a:hover p {
   opacity: 1;
 }
 
@@ -99,11 +107,11 @@ a {
 }
 .suntech_hearder h2 {
   position: absolute;
-  top: 400px;
-  left: 200px;
+  top: 270px;
+  left: 130px;
   font-weight: 700;
   color: #333333;
-  font-size: 50px;
+  font-size: 40px;
   letter-spacing: 2px;
   text-transform: uppercase;
 }
@@ -121,11 +129,11 @@ a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 50px 0px;
+  padding: 50px 20px;
 }
 .conten_list .list_img {
-  width: 300px;
-  margin: 0 30px;
+  width: 400px;
+  margin: 0 10px;
 }
 .conten_list .list_img:hover .list_icon {
   display: block;
@@ -134,25 +142,28 @@ a {
   font-weight: 600;
   margin-top: 10px;
   margin-bottom: 0px;
-  font-size: 20px;
+  font-size: 16px;
 }
 .conten_list .list_img .text--green {
   color: #3cb878;
   margin: 0px;
   margin-top: 10px;
-  font-size: 18px;
+  font-size: 14px;
 }
 .conten_list .list--aline h3 {
   text-transform: uppercase;
   font-weight: 700;
+  font-size: 28px;
 }
 .conten_list .list--aline h5 {
   font-style: italic;
-  font-weight: 200;
+  font-weight: 500;
   color: #3cb878;
+  font-size: 12px;
 }
 .conten_list .list--aline p {
   font-weight: 500;
+  font-size: 12px;
 }
 .conten_list .img {
   position: relative;
@@ -160,8 +171,8 @@ a {
 .conten_list .list_icon {
   display: none;
   position: absolute;
-  top: 15px;
-  right: -20px;
+  top: 5px;
+  right: 5px;
 }
 
 .suntech_StaticBlock {
@@ -211,26 +222,29 @@ a {
   padding: 50px 0px;
 }
 .suntech_sibar .col_subscribe .text_top {
-  font-size: 40px;
+  font-size: 25px;
   font-weight: 500;
   margin-bottom: 0px;
 }
 .suntech_sibar .col_subscribe .text_boton {
-  margin-top: 15px;
-  margin-bottom: 30px;
+  margin-top: 10px;
+  margin-bottom: 25px;
+  font-size: 12px;
 }
 .suntech_sibar .form .input {
-  width: 400px;
-  height: 40px;
+  width: 340px;
+  height: 35px;
   padding-left: 15px;
+  border: 0px;
 }
 .suntech_sibar .form .button {
-  height: 40px;
+  height: 35px;
   background-color: #3cb878;
   color: white;
   border: 0px;
   padding: 0px 20px;
   text-transform: uppercase;
+  font-size: 14px;
 }
 .suntech_sibar .col_clients {
   display: -webkit-box;
@@ -249,10 +263,11 @@ a {
 
 .suntech_footer {
   background-color: black;
-  color: white;
+  color: rgb(104, 99, 99);
   text-align: center;
   height: 40px;
-  padding-top: 6px;
+  line-height: 40px;
+  font-size: 10px;
 }
 .suntech_footer .col-icon {
   display: -webkit-box;
@@ -261,7 +276,7 @@ a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-left: 560px;
+  margin-left: 300px;
 }
 .suntech_footer .col-icon li {
   margin: 0px 10px;
